@@ -26,7 +26,7 @@
          "opacity":1,
          "tintcolor":"#000000",
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -870,8 +870,18 @@
          "tilewidth":32
         }, 
         {
+         "columns":38,
          "firstgid":321,
-         "source":"Cin\u00e9ma.tsx"
+         "image":"..\/..\/..\/Desktop\/Woka\/Cin\u00e9ma.png",
+         "imageheight":471,
+         "imagewidth":1216,
+         "margin":0,
+         "name":"Cin\u00e9ma",
+         "spacing":0,
+         "tilecount":532,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#000000"
         }],
  "tilewidth":32,
  "type":"map",
