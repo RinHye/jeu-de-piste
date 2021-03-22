@@ -45,6 +45,12 @@
          "id":41,
          "name":"sieges",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"siege"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":46,
@@ -98,7 +104,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":45,
+ "nextlayerid":46,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
