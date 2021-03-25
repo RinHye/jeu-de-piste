@@ -81,12 +81,6 @@
          "id":41,
          "name":"sieges",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"jitsiRoom",
-                 "type":"string",
-                 "value":"siege"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":46,
@@ -127,7 +121,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/watch?v=SxjAiZzGr1U"
+                 "value":"https:\/\/www.youtube.com\/embed\/SxjAiZzGr1U"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
