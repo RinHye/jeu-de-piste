@@ -131,7 +131,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Press space to open the video"
+                 "value":"Press SPACE to open the video"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -145,6 +145,22 @@
          "id":54,
          "name":"Light2",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/www.youtube.com\/embed\/SxjAiZzGr1U"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Press SPACE to open the video"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":46,
@@ -437,6 +453,15 @@
                         }]
                 }, 
                 {
+                 "id":26,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":28,
                  "properties":[
                         {
@@ -591,6 +616,15 @@
                 }, 
                 {
                  "id":52,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":54,
                  "properties":[
                         {
                          "name":"collides",
